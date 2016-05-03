@@ -39,7 +39,8 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div><br>
-                <span>Now: <?php echo date('d F y, H:i:s', time()); ?></span>
+                <span>Now: <?php echo date('d F y, H:i:s', time()); ?></span><br>
+                <span>DONE</span>
             </div>
         </div>
     </body>
