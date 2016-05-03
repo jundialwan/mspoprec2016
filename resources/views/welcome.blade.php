@@ -40,7 +40,10 @@
             <div class="content">
                 <div class="title">Laravel 5</div><br>
                 <span>Now: <?php echo date('d F y, H:i:s', time()); ?></span><br>
-                <span>DONE</span>
+                <span>DONE</span><br>
+                <p>
+                    <?php echo phpinfo(); ?>    
+                </p>
             </div>
         </div>
     </body>
