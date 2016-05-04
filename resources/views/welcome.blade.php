@@ -4,6 +4,7 @@
         <title>Laravel</title>        
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="{{ url('css/mdl2.css') }}" rel="stylesheet" type="text/css">
 
         <style>
             html, body {
@@ -16,7 +17,7 @@
                 width: 100%;
                 display: table;
                 font-weight: 100;
-                font-family: 'Lato';
+                font-family: 'Segoe UI', 'Lato';
             }
 
             .container {
@@ -32,13 +33,21 @@
 
             .title {
                 font-size: 96px;
+                font-family: 'Segoe UI';
+                font-weight: 'bold';
+            }
+            
+            .icon {
+                color: grey;
+                text-decoration: none !important;
+                font-style: normal;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div><br>
+                <div class="title">Laravel 5 <i class="icon mdl2-add-friend"></i></div><br>
                 <span>Now: <?php echo date('d F y, H:i:s', time()); ?></span><br>
                 <span>DONE</span><br>
                 <p>
