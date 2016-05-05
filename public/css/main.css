@@ -1,0 +1,48 @@
+body {
+    position: relative;
+    overflow-x: hidden;   
+}
+
+body, html {
+    height: 100%;
+}
+
+.blue {
+    color: #0078d7 !important;
+}
+
+.blue-bg {
+    background-color: #0078d7 !important;
+}
+
+.dblue {
+    color: #0063b1 !important;
+}
+
+.dblue-bg {
+    background-color: #0063b1 !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.black-bg {
+    background-color: #000 !important;
+}
+
+.grey {
+    color: #333 !important;
+}
+
+.grey-bg {
+    background-color: #333 !important; 
+}
+
+.white {
+    color: #fff !important;
+}
+
+.white-bg {
+    background-color: #fff !important;
+}
