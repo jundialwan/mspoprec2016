@@ -78,6 +78,22 @@
             @yield('content')
         </div>
         
+        <div class="row blue-bg">
+            <div class="col-md-24">                
+                <div class="container text-center white">
+                    Please be my friend! Reach me on.. <br>
+                    <div class="btn-group">
+                        <a href="http://facebook.com/jundi.alwan" target="_blank" class="btn blue white-bg btn-primary">Facebook</a>
+                        <a href="http://twitter.com/ja_alwan" target="_blank" class="btn blue white-bg btn-primary">Twitter</a>
+                        <a href="http://linkedin.com/in/jundialwan" target="_blank" class="btn blue white-bg btn-primary">LinkedIn</a>
+                        <a href="http://github.com/jundialwan" target="_blank" class="btn blue white-bg btn-primary">GitHub</a>
+                        <a href="http://line.me/ti/p/~jundialwan" target="_blank" class="btn blue white-bg btn-primary">LINE</a>
+                        <a href="mailto:jundi.alwan@gmail.com" target="_blank" class="btn blue white-bg btn-primary">GMail</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        
         <div id="footer" class="row white-bg">
             <div class="col-md-24 text-center black">        
                 

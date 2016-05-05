@@ -82,12 +82,63 @@
         <div class="row dblue-bg">
             <div class="col-md-24">
                 <div class="container text-center white">
+                    What's my interest?
+                </div>
+            </div>  
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-md-18 col-md-offset-3">
+                <div class="container black text-center">                   
+                    <div class="type-t3">
+                        My interest are..
+                    </div><br>
+                    
+                    <div class="type-t6">
+                        <b>
+                            <div class="btn-group">                                
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#projectmanager</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#projectmanagement</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#managing</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#leadership</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#sharing</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#organizing</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#coding</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#techology</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#ITstartup</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#community</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#windows</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#windowsplatform</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#microsoftstudentpartner</a>                                
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#mobileapplication</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#windowsphone</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#gamedev</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#webdev</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#cooking</a>
+                                <a href="https://www.worldcubeassociation.org/results/p.php?i=2010ALWA01" class="btn btn-secondary theme-light blue" target="_blank">#rubikscube</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#music</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#singing</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#guitar</a>
+                                <a class="btn btn-secondary theme-light blue" target="_blank">#universitasindonesia</a>
+                                <br><br>
+                            </div>                                
+                        </b>                                            
+                    </div>                    
+                </div>
+            </div>                                               
+            
+        </div>
+        
+        <div class="row dblue-bg">
+            <div class="col-md-24">
+                <div class="container text-center white">
                     What am I doing now?
                 </div>
             </div>  
         </div>
         
-        <div id="ui" class="row" style="height: 500px">
+        <div id="ui" class="row doing">
             <div class="col-md-24">
                 <div class="container black"><br><br><br><br>
                     <div class="type-t3">
@@ -122,11 +173,16 @@
             </div>                        
         </div>
          
-        <div id="ristek" class="row" style="height: 500px">
+        <div id="ristek" class="row doing">
             <div class="col-md-24">
-                <div class="container white"><br><br><br><br>
-                    <div class="type-t3">
+                <div class="container white"><br><br><br><br><br><br><br>
+                    <div class="type-t3 white">
                         Pointed as Head of Project Development
+                    </div>
+                    
+                    <div class="type-t6 white">
+                        Manage project and project portfolio of Ristek Fasilkom UI. <br> 
+                        Managing web, game, and mobile apps project as Project Manager   
                     </div><br>
                     
                     <div class="row">
@@ -149,13 +205,59 @@
                         <a href="http://ristek.cs.ui.ac.id" target="_blank" class="btn btn-primary">ristek.cs.ui.ac.id</a>
                     </div>
                     
-                    <br><br><br><br><br><br><br>
+                    <br><br>
                     <div class="type-t7 white">
-                        <i>*me = wearing blue jacket :))</i>
+                        <i>*me = wearing blue jacket with glassess :))</i>
                     </div>
                 </div>
             </div>                        
         </div>
+        
+        <div id="compfest" class="row doing">
+            <div class="col-md-24">
+                <div class="container white"><br><br><br><br><br>
+                    <div class="type-t3 white">
+                        Core Team Advisor at Steering Committe CompFest8
+                    </div><br>
+                    
+                    <div class="row">
+                        <div class="col-md-15">
+                            <div class="col-md-2">
+                                <img src="{{ url('img/c8.jpg') }}" alt="compfest 8" height="48">
+                            </div>
+                            
+                            <div class="col-md-12">
+                                <div class="type-t5 white">
+                                    CompFest 8 <br>
+                                    University of Indonesia
+                                </div>
+                            </div>
+                        </div><br><br>
+                    </div><br>
+                        
+                            
+                    <div class="btn-group">
+                        <a href="http://compfest.web.id" target="_blank" class="btn btn-primary">compfest.web.id</a>
+                    </div>
+                    
+                    <br><br>
+                    <div class="type-t7 white">
+                        <i>*This year gonna be very awesome!</i>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+        
+        <div class="row dblue-bg">
+            <div class="col-md-24">
+                <div class="container text-center white">
+                    
+                        It's just a little of me, see <a href="{{ url('/profile') }}" class="btn-link theme-dark">Profile</a> for more
+                                 
+                </div>
+            </div>  
+        </div>
+                
     </div>          
 </div>
 @stop

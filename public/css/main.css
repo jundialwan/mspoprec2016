@@ -17,6 +17,7 @@ body {
     overflow-x: hidden;   
     font-family: 'Segoe UI', 'Selawik';
     padding-top: 49px;
+    background-color: #eee;
 }
 
 .segoe-ui {
@@ -115,6 +116,10 @@ body, html {
     font-size: 150%;
 }
 
+.doing {
+    height: 500px;
+}
+
 #ui {
     background: url('../img/ui-perpus.jpg'); 
     background-repeat: no-repeat;
@@ -129,4 +134,16 @@ body, html {
     background-size: auto 180%;  
     background-position: 0 -164px;
     border-bottom: 2px solid #0063b1;
+}
+
+#compfest {
+    background: url('../img/compfest.jpg'); 
+    background-repeat: no-repeat;
+    background-size: auto 180%;  
+    background-position: 0 -164px;
+    border-bottom: 2px solid #0063b1;
+}
+
+.btn-group {
+    margin-top: 0 !important;
 }
