@@ -1,6 +1,7 @@
 body {
     position: relative;
     overflow-x: hidden;   
+    font-family: 'Segoe UI', 'Selawik';
 }
 
 body, html {
@@ -45,4 +46,21 @@ body, html {
 
 .white-bg {
     background-color: #fff !important;
+}
+
+.main-nav {
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.prof-pic {
+    border-radius: 100%;
 }
