@@ -19,8 +19,35 @@ body {
     padding-top: 49px;
 }
 
+.segoe-ui {
+    font-family: 'Segoe UI', 'Selawik' !important;
+}
+
+.selawik-light {
+    font-family: 'Segoe UI Light', 'Selawik Light' !important; 
+}
+
+#hero {
+    background: url('../img/header-ui.jpg');
+    background-attachment: fixed;
+}
+
+#hero-img {
+    position: fixed;
+}
+
 #footer {
     padding: 16px 0;
+    border-top: 1px solid #bbb;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+.container {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
 }
 
 body, html {
@@ -86,4 +113,20 @@ body, html {
 
 .glyph-larger {
     font-size: 150%;
+}
+
+#ui {
+    background: url('../img/ui-perpus.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100% 200%;  
+    background-position: 0 -180px;
+    border-bottom: 2px solid #0063b1;
+}
+
+#ristek {
+    background: url('../img/ristek.jpg'); 
+    background-repeat: no-repeat;
+    background-size: auto 180%;  
+    background-position: 0 -164px;
+    border-bottom: 2px solid #0063b1;
 }

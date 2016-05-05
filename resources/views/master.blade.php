@@ -78,15 +78,15 @@
             @yield('content')
         </div>
         
-        <div id="footer" class="row grey-bg">
-            <div class="col-md-24 text-center white">        
+        <div id="footer" class="row white-bg">
+            <div class="col-md-24 text-center black">        
                 
-                Created by Jundi Ahmad Alwan using Laravel 5.2, winstrap, jQuery <br>
+                Created by me using Laravel 5.2, winstrap, jQuery, and hosted by Microsoft Azure <br>
                 Source code available on my github
             
                 <br>
-                <a href="http://github.com/jundialwan/mspoprec2016">                              
-                    <img src="{{ url('img/github-sm.png') }}" alt="github">
+                <a href="http://github.com/jundialwan/mspoprec2016">
+                    <img src="{{ url('img/github-sm-b.png') }}" alt="github">
                 </a>    
                 <br>                                
             </div>  
