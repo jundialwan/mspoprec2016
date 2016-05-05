@@ -1,19 +1,31 @@
 @extends('master')
 
 @section('content')
-<div class="row">
-    <div class="col-md-6 grey-bg">
+<div class="row white-bg">
+    <div class="col-md-12" style="height: 1000px">
         <div class="row">
             Test
         </div>
-    </div>
-    
-    <div class="col-md-6 blue-bg">
+    </div>  
+</div>
+
+<div class="row grey-bg">
+    <div class="col-md-12" style="height: 1000px">
+        <div class="row">
+            Test
+        </div>
+    </div>  
+</div>
+
+<div class="row blue-bg">
+    <div class="col-md-12" style="height: 1000px">
         <div class="row">
             <p>
                 TEst
             </p>
         </div>
-    </div>       
+    </div>
 </div>
+
+
 @stop

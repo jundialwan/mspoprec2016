@@ -1,7 +1,26 @@
+@font-face {
+  font-family: 'Selawik';
+  src: url('../fonts/selawk.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/selawk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/selawk.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Selawik Light';
+  src: url('../fonts/selawkl.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/selawkl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/selawkl.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
     position: relative;
     overflow-x: hidden;   
     font-family: 'Segoe UI', 'Selawik';
+    padding-top: 49px;
+}
+
+#footer {
+    padding: 16px 0;
 }
 
 body, html {
@@ -50,11 +69,11 @@ body, html {
 
 .main-nav {
     border-radius: 0;
-    border: none;
+    border-bottom: 1px solid #bbb;    
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #0063b1;
 }
 
 .navbar-brand {
@@ -63,4 +82,8 @@ body, html {
 
 .prof-pic {
     border-radius: 100%;
+}
+
+.glyph-larger {
+    font-size: 150%;
 }
