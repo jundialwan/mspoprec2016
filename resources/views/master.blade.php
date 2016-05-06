@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>jundialwan - </title>
+        <title>jundialwan - {{ $data['title'] }}</title>
         <link rel="stylesheet" type="text/css" href="{{ url('css/bootstrap.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ url('css/winstrap.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ url('css/winstrap-optional.css') }}">
@@ -66,7 +66,7 @@
                             </li>-->
                             
                             <li>
-                                <a href="">Blog</a>
+                                <a href="{{ url('blog') }}" role="button" aria-expanded="false">Blog</a>
                             </li>
                         </ul>                        
                     </div>

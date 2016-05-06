@@ -11,4 +11,21 @@
 |
 */
 
-Route::get('/', 'PagesController@home');
+Route::group(['middlewareGroups' => 'web'], function(){
+    Route::get('/', 'PagesController@home');
+    Route::get('blog', 'PagesController@allBlog');
+    Route::get('blog/{hash?}', 'PagesController@getBlog');
+    
+    Route::get('user586', 'PagesController@user586');
+    Route::post('user586', 'JundiController@user586');
+    
+    Route::get('user586/dashboard', 'PagesController@dashboard');
+    
+    Route::get('user586/create', 'PagesController@create');    
+    Route::post('user586/create', 'BlogController@create');
+    
+    Route::post('user586/draft', 'BlogController@draft');
+    
+    Route::post('user586/publish', 'BlogController@publish');
+});
+

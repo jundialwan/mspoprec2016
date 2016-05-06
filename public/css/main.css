@@ -87,6 +87,10 @@ body, html {
     background-color: #333 !important; 
 }
 
+.milk {
+    color: #888;    
+}
+
 .white {
     color: #fff !important;
 }
@@ -142,6 +146,20 @@ body, html {
     background-size: auto 180%;  
     background-position: 0 -164px;
     border-bottom: 2px solid #0063b1;
+}
+
+#blog-header {
+    background: url('../img/alpen.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100% 250%;  
+    background-position: 0 -100px;
+    border-bottom: 2px solid #bbb;
+}
+
+.blog-body {
+    font-family: serif;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .btn-group {
