@@ -9,7 +9,7 @@ class Jundi extends Model
 {
     protected $table = 'users';
     
-    public function isJundi($user, $pass)
+    public static function isJundi($user, $pass)
     {
         $users = Jundi::where([
             ['username', $user],

@@ -165,3 +165,11 @@ body, html {
 .btn-group {
     margin-top: 0 !important;
 }
+
+.glyph {
+    margin-top: 0;
+}
+
+.admin-btn {
+    margin-top: 0 !important;
+}

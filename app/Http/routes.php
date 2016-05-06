@@ -17,7 +17,7 @@ Route::group(['middlewareGroups' => 'web'], function(){
     Route::get('blog/{hash?}', 'PagesController@getBlog');
     
     Route::get('user586', 'PagesController@user586');
-    Route::post('user586', 'JundiController@user586');
+    Route::post('user586', 'JundiController@login');
     
     Route::get('user586/dashboard', 'PagesController@dashboard');
     

@@ -10,13 +10,15 @@ class JundiController extends Controller
 {
     public function login(Request $request)
     {
-        if ( Jundi::isJundi($request->input('user'), $request->input('pass')) )
+        if($request->session()->has('user586data')) return redirect('user586/dashboard');
+        
+        if ( Jundi::isJundi($request->input('user'), md5($request->input('pass'))) )
         {
             // set session
             $request->session()->put('user586data', $request->input('user'));
             
             // redirect to admin page
-            return redirect('/');
+            return redirect('user586/dashboard');
         } 
         else
         {

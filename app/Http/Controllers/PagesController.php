@@ -51,4 +51,25 @@ class PagesController extends MasterController
             'blog' => $blog,
         ]);
     }
+    
+    public function user586(Request $request)
+    {
+        if($request->session()->has('user586data')) return redirect('user586/dashboard');
+                
+        return $this->render('login', [
+            'title' => 'Admin Login',
+        ]);
+    }
+    
+    public function dashboard(Request $request)
+    {
+        if($request->session()->has('user586data')) return redirect('user586/dashboard');
+        
+        $allpost = Blog::all(); 
+        
+        return $this->render('admin', [
+            'title' => 'Admin',
+            'allpost' => $allpost,
+        ]);
+    }
 }
