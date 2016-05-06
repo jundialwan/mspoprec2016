@@ -26,12 +26,12 @@ class Blog extends Model
     
     public static function publishBlog($hash)
     {
-        # code...
+        DB::table('blogs')->where('hash', $hash)->update(['post_status' => 1]);
     }
     
     public static function draftBlog($hash)
     {
-        # code...
+        DB::table('blogs')->where('hash', $hash)->update(['post_status' => 0]);
     }
     
     public static function updateBlog($hash, $data)

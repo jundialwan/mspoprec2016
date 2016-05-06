@@ -24,10 +24,6 @@ Route::group(['middlewareGroups' => 'web'], function(){
     Route::get('user586/create', 'PagesController@create');    
     Route::post('user586/create', 'BlogController@create');
     
-    Route::post('user586/draft', 'BlogController@draft');
-    
-    Route::post('user586/edit', 'BlogController@edit');
-    
-    Route::post('user586/publish', 'BlogController@publish');
+    Route::post('user586/update', 'BlogController@update');
 });
 
