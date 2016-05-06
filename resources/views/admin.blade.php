@@ -16,30 +16,45 @@
                     <table class="table table-striped">
                         <tr>
                             <th>Title</th>
+                            <th>Created at</th>
                             <th>Status</th>
                             <th>Action</th>
                         </tr>
                         
+                        @foreach($data['allpost'] as $post)
                         <tr>
-                            <td>test</td>
-                            <td>Draft</td>
+                            <td>{{ $post->title }}</td>
+                            <td>{{ $post->created_at }}</td>
+                            <td>
+                                @if ($post->status == 0)
+                                    Drafted
+                                @else
+                                    Posted
+                                @endif
+                            </td>
                             <td>
                                 <div class="btn-group">
-                                    <a href="{{ url('user586/create') }}" class="btn admin-btn btn-link">
-                                        <span class="glyph glyph-edit type-t7"></span>&nbsp;
-                                        edit
-                                    </a>
-                                    <a href="{{ url('user586/create') }}" class="btn admin-btn btn-link">
-                                        <span class="glyph glyph-checkmark type-t7"></span>&nbsp;
-                                        publish
-                                    </a>
-                                    <a href="{{ url('user586/create') }}" class="btn admin-btn btn-link">
-                                        <span class="glyph glyph-cancel type-t7"></span>&nbsp;
-                                        draft
-                                    </a>
+                                    <form action="{{ url('user586/') }}">
+                                        {!! csrf_field() !!}
+                                        <input type="hidden" name="hash" value="{{ $post->hash }}">
+                                        <button class="btn admin-btn btn-link">
+                                            <span class="glyph glyph-edit type-t7"></span>&nbsp;
+                                            edit
+                                        </button>
+                                        <button class="btn admin-btn btn-link">
+                                            <span class="glyph glyph-checkmark type-t7"></span>&nbsp;
+                                            publish
+                                        </button>
+                                        <button class="btn admin-btn btn-link">
+                                            <span class="glyph glyph-cancel type-t7"></span>&nbsp;
+                                            draft
+                                        </button>
+                                    </form>
                                 </div>
                             </td>
                         </tr>
+                        @endforeach
+                        
                     </table>
                 </div>
             </div>
